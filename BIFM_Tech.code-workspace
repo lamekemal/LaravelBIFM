@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\WebDRV\\smash-template-opl\\bifm"
+		}
+	],
+	"settings": {
+		"terminal.integrated.fontSize": 12,
+		"editor.fontSize": 11
+	}
+}
