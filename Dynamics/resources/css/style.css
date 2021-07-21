@@ -17,7 +17,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*===========================
-      01.COMMON css 
+      01.COMMON css
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
 body {
@@ -396,7 +396,7 @@ p {
     -o-transform: rotate(-130deg);
     transform: rotate(-130deg); } }
 /*===========================
-    11.BUTTON css 
+    11.BUTTON css
 ===========================*/
 .buttons-title .title {
   font-size: 36px;
@@ -1988,7 +1988,7 @@ p {
     background-position: right center; }
 
 /*===========================
-    06.FORM ELEMENTS css 
+    06.FORM ELEMENTS css
 ===========================*/
 .form-elements-title {
   font-size: 36px;
@@ -2159,7 +2159,7 @@ p {
     border-radius: 5px; }
 
 /*===========================
-        09.NAVBAR css 
+        09.NAVBAR css
 ===========================*/
 .navbar-area {
   background-color: #fff;
@@ -2359,7 +2359,7 @@ p {
       color: #fff; }
 
 /*===========================
-       10.SLIDER css 
+       10.SLIDER css
 ===========================*/
 .carousel-item {
   background-color: #f1faf6; /*home zone dedited*/
@@ -2404,7 +2404,7 @@ p {
       margin: auto;}
 
 .slider-content {
-  position: relative;   
+  position: relative;
   z-index: 9;
   padding-top: 240px;
   padding-bottom: 200px; }
@@ -2526,7 +2526,7 @@ p {
       right: 30px; } }
 
 /*===========================
-      17.FEATURES css 
+      17.FEATURES css
 ===========================*/
 /*===== features TWO =====*/
 .features-area {
@@ -2593,7 +2593,7 @@ p {
     margin-top: 29px; }
 
 /*===========================
-      18.PORTFOLIO css 
+      18.PORTFOLIO css
 ===========================*/
 .portfolio-area {
   padding-top: 120px;
@@ -2702,7 +2702,7 @@ p {
   visibility: visible; }
 
 /*===========================
-      16.PRICING css 
+      16.PRICING css
 ===========================*/
 .pricing-area {
   background-color: #f4f6f7;
@@ -2781,7 +2781,7 @@ p {
         box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16); }
 
 /*===========================
-       15.ABOUT css 
+       15.ABOUT css
 ===========================*/
 .about-area {
   padding-top: 15px;
@@ -2844,7 +2844,7 @@ p {
     width: 100%; }
 
 /*===========================
-      26.TESTIMONIAL css 
+      26.TESTIMONIAL css
 ===========================*/
 /*===== TESTIMONIAL STYLE THREE =====*/
 .testimonial-area {
@@ -2993,7 +2993,7 @@ p {
         left: -445px; } }
 
 /*===========================
-        13.TEAM css 
+        13.TEAM css
 ===========================*/
 /*===== TEAM STYLE ELEVEN =====*/
 .team-style-eleven {
@@ -3108,7 +3108,7 @@ p {
       color: #fff; }
 
 /*===========================
-      19.CONTACT css 
+      19.CONTACT css
 ===========================*/
 .contact-area {
   box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.899);
@@ -3173,7 +3173,7 @@ p.form-message.success, p.form-message.error {
     font-weight: 400; }
 
 /*===========================
-    21.FOOTER css 
+    21.FOOTER css
 ===========================*/
 /*===== FOOTER FIVE =====*/
 .footer-area {
@@ -3315,7 +3315,7 @@ p.form-message.success, p.form-message.error {
 
 }
 
-/*drop zone*/ 
+/*drop zone*/
 
 .dropdown {
   position: relative;
@@ -3325,20 +3325,25 @@ p.form-message.success, p.form-message.error {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f180;
+  background-color: #f1f1f19d;
   min-width: 170px;
-  box-shadow: 0px -5px -5px 0px rgba(0,0,0,0.2);
+  /*box-shadow: 0px -5px -5px 0px rgba(0,0,0,0.2);*/
   z-index: 1;
 }
 
 .dropdown-content a {
   color: black;
-  margin-bottom: -20px;
-  margin-top: -20px;
+  margin-block: -15px;
   padding: 2px 1px 1px 2px ;
   text-decoration: none;
   margin-left: 10px;
   display: block;
 }
-.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown-content a:hover {
+  background-color: rgba(31, 31, 31, 0.582);
+  color: #005ad5;
+  margin-block: 5px;
+  padding: 2px 1px 1px 2px ;
+}
 .dropdown:hover .dropdown-content {display: block;}

@@ -1,4 +1,5 @@
 
+//ARCHEOS-PULG
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
 

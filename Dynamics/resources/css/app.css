@@ -1,13 +1,6 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-@import "slick";
-@import "bootstrap";
-@import "animate.css";
-@import "magnific-popup";
-
+/*@import "tailwindcss/base";*/
+/*@import "tailwindcss/components";*/
+/*@import "tailwindcss/utilities";*/
 @import "./style.css";
-@import "./carousel.css";
-@import "./LineIcons.css";
-@import "./reboundgen.css";
 @import "./default.css";
+@import "./carousel.css";
