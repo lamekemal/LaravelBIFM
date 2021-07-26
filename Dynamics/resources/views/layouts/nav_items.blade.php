@@ -3,12 +3,12 @@
 <li class="nav-item">
   <div class="dropdown">
       <a class="page-scroll dropbtn" href="/Securite">Sécurité</a>
-    <div class="dropdown-content" style ="margin-left: -15px;">
-      <a href="/Securite/Alarme-intrusion">Alarme intrusion</a>
-      <a href="/Securite/Alarme-incendie">Alarme incendie</a>
-      <a href="/Securite/Video-surveillance">Video surveillance</a>
-      <a href="/Securite/Control-acces">Contrôl d'accès</a>
-      <a href="/Securite/Cablage-reseau">Câblage réseau</a>
+    <div class="dropdown-content" style ="margin-left: -22px;">
+      <a class="dpdtx" href="/Securite/Alarme-intrusion">Alarme intrusion</a>
+      <a class="dpdtx" href="/Securite/Alarme-incendie">Alarme incendie</a>
+      <a class="dpdtx" href="/Securite/Video-surveillance">Video surveillance</a>
+      <a class="dpdtx" href="/Securite/Control-acces">Contrôl d'accès</a>
+      <a class="dpdtx" href="/Securite/Cablage-reseau">Câblage réseau</a>
     </div>
   </div>
 </li>

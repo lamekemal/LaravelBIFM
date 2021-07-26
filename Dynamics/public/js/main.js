@@ -47,7 +47,7 @@ $(window).on('scroll', function () {
         });
     });*/
 
-    if ($('.counter').length) { // checking if CountTo section exists in the page, if not it will not run the script and avoid errors	
+    if ($('.counter').length) { // checking if CountTo section exists in the page, if not it will not run the script and avoid errors
         var oTop = $('.counter').offset().top - window.innerHeight;
         if ($(window).scrollTop() > oTop) {
             $('.counter-value').each(function () {
@@ -140,11 +140,11 @@ $(window).on('scroll', function (event) {
 // Active link switching
 /* $(window).scroll(function () {
      var scrollbarLocation = $(this).scrollTop();
- 
+
      scrollLink.each(function () {
- 
+
          var sectionOffset = $(this.hash).offset.top - 73;
- 
+
          if (sectionOffset <= scrollbarLocation) {
              $(this).parent().addClass('active');
              $(this).parent().siblings().removeClass('active');
@@ -300,3 +300,11 @@ $('.back-to-top').on('click', function (event) {
         scrollTop: 0,
     }, 1500);
 });
+
+$('#myUrl').keyup(function(e) {
+    if (this.value.length < 4) {
+      this.value = 'TEL: ';
+    } else if (this.value.indexOf('TEL:') !== 0) {
+      this.value = 'TEL: ' + String.fromCharCode(e.which);
+    }
+  });

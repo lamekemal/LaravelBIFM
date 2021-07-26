@@ -8,7 +8,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img data-animation="animated zoomInUp" class="first-slide" src="assets/images/AIT.jpg"
+                    <img data-animation="animated zoomInUp" class="first-slide" src="{{ URL::asset('images/AIT.jpg') }}"
                         alt="First slide">
                     <div class="container">
                         <div class="carousel-caption text-left">
@@ -81,7 +81,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="about-image mt-50">
-                        <img src="assets/images/AITS.jpg" alt="about">
+                        <img src="{{ URL::asset('images/AITS.jpg') }}" alt="about">
                     </div> <!-- faq image -->
                 </div>
             </div> <!-- row -->
@@ -102,9 +102,9 @@
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 448px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Déclencheurs manuels (DM) </a></h4>
+                            <h4 class="features-title"><a >Déclencheurs manuels (DM) </a></h4>
                             <div class="features-icon">
                             </div>
                         </div>
@@ -119,9 +119,9 @@
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 448px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Détecteurs automatiques (DA)</a></h4>
+                            <h4 class="features-title"><a >Détecteurs automatiques (DA)</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -138,9 +138,9 @@
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 448px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Equipement de contrôle des signalisations (ECS)</a></h4>
+                            <h4 class="features-title"><a >Equipement de contrôle des signalisations (ECS)</a></h4>
 
                         </div>
                         <div class="features-content">
@@ -158,9 +158,9 @@
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 363px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Centralisateur de mise en sécurité</a></h4>
+                            <h4 class="features-title"><a>Centralisateur de mise en sécurité</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -176,9 +176,9 @@
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 363px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Diffuseur sonores</a></h4>
+                            <h4 class="features-title"><a  >Diffuseur sonores</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -197,9 +197,9 @@
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 363px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Dispositifs actionné de sécurité (DAS)</a></h4>
+                            <h4 class="features-title"><a >Dispositifs actionné de sécurité (DAS)</a></h4>
                             <div class="features-icon">
 
                             </div>

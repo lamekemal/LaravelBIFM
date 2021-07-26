@@ -7,16 +7,16 @@
                     <p class="text">Nos contacts web et locale, disponible 24h/24 tous les jours!</p>
                 </div> <!-- section title -->
             </div>
-        </div> 
+        </div>
         <div class="contact-info pt-30">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="single-contact-info contact-color-1 mt-30 d-flex ">
                         <div class="contact-info-icon">
-                            <i class="lni lni-map-marker"></i>
+                            <i class="lni lni-whatsapp"></i>
                         </div>
                         <div class="contact-info-content media-body">
-                            <p class="text"> Adresse locale si disponible<br>Adresse locale.</p>
+                            <p class="text" style="margin-top: 15px"> 00229 XXX XXX XX</p>
                         </div>
                     </div> <!-- single contact info -->
                 </div>
@@ -37,17 +37,20 @@
                             <i class="lni lni-facebook"></i>
                         </div>
                         <div class="contact-info-content media-body">
-                            <p class="text">@bifmtec</p>
+                            <p class="text"  style="margin-top: 15px">@bifmtec</p>
                         </div>
                     </div> <!-- single contact info -->
                 </div>
+
             </div> <!-- row -->
         </div> <!-- contact info -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-wrapper form-style-two pt-115">
                         <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Demander un devis.</h4>
-                        <form id="contact-form" action="assets/contact.php" method="post">
+                        <form id="contact-form" action="/Devis" method="POST"
+                        enctype="multipart/form-data">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-input mt-25">
@@ -71,7 +74,7 @@
                                     <div class="form-input mt-25">
                                         <label>Numéro de téléphone</label>
                                         <div class="input-items default">
-                                            <input type="phone" name="phone" placeholder="Contact téléphonique">
+                                            <input value="TEL: " id="myUrl" type="TEXT" name="contact" placeholder="Contact téléphonique">
                                             <i class="lni lni-phone-set"></i>
                                         </div>
                                     </div> <!-- form input -->
@@ -80,19 +83,19 @@
                                     <div class="form-input mt-25">
                                         <label for="cars">Catégorie </label>
                                         <div class="input-items default">
-                                            <select name="categories" id="categories">
-                                                <option value="Power">Electricité</option>
-                                                <option value="Cold">Climatisation</option>
-                                                <option value="FM">Facility Management-FM</option>
-                                                <option value="Guard">Sécurité</option>
-                                            </select> 
+                                            <select name="category" id="categories">
+                                                <option value="DEVIS > Electricité">Electricité</option>
+                                                <option value="DEVIS > Climatisation">Climatisation</option>
+                                                <option value="DEVIS > Facility Management-FM">Facility Management-FM</option>
+                                                <option value="DEVIS > Sécurité">Sécurité</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
                                 <p class="form-message"></p>
                                 <div class="col-md-12">
                                     <div class="form-input light-rounded-buttons mt-30">
-                                        <button class="main-btn light-rounded-two">Continuer</button>
+                                        <button class="main-btn light-rounded-two" type="submit" >Continuer</button>
                                     </div> <!-- form input -->
                                 </div>
                             </div> <!-- row -->

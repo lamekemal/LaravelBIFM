@@ -10,7 +10,6 @@
         "production": "mix --production"
     },
     "devDependencies": {
-        "@tailwindcss/ui": "^0.3",
         "autoprefixer": "^9.6",
         "axios": "^0.21",
         "bootstrap": "^4.6.0",
@@ -30,7 +29,6 @@
         "sass": "^1.32.11",
         "sass-loader": "^11.0.1",
         "slick": "^1.12.2",
-        "tailwindcss": "^2.2.4",
         "vue-template-compiler": "^2.6.11",
         "webpack-cli": "^4.7.2"
     },

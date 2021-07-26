@@ -8,7 +8,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img data-animation="animated zoomInUp" class="first-slide" src="assets/images/CR.jpg"
+                <img data-animation="animated zoomInUp" class="first-slide" src="{{ URL::asset('images/CR.jpg') }}"
                     alt="First slide">
                 <div class="container">
                     <div class="carousel-caption text-left">
@@ -69,7 +69,7 @@
             </div>
             <div class="col-lg-7">
                 <div class="about-image mt-50">
-                    <img src="assets/images/CRS.jpg" alt="about">
+                    <img src="{{ URL::asset('images/CRS.jpg') }}" alt="about">
                 </div> <!-- faq image -->
             </div>
         </div> <!-- row -->
@@ -78,5 +78,5 @@
 @endsection
 
 @section('devis')
- @include('layouts.ctc')   
+ @include('layouts.ctc')
 @endsection

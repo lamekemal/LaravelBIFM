@@ -10,14 +10,19 @@
  * |
  */
 
+use App\Http\Controllers\DeviController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
+use App\Http\Controllers\SellingController;
 use App\Http\Controllers\ShopController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class, 'index']);
 Route::resource('/Actualite', PostsController::class);
 Route::resource('/BiShop', ShopController::class);
+
+Route::resource('/Devis', DeviController::class);
+Route::resource('/Selling', SellingController::class);
 
 Auth::routes();
 
@@ -34,3 +39,4 @@ Route::get('/Securite/Alarme-incendie', [PagesController::class, 'incendie']);
 Route::get('/Securite/Video-surveillance', [PagesController::class, 'surveillance']);
 Route::get('/Securite/Control-acces', [PagesController::class, 'acess']);
 Route::get('/Securite/Cablage-reseau', [PagesController::class, 'reseau']);
+

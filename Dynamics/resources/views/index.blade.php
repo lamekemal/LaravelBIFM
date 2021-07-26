@@ -145,9 +145,9 @@
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div  data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 351px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Electricité générale </a></h4>
+                            <h4 class="features-title"><a href="/Electricite">Electricité générale </a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-bolt"></i>
                                 <img class="shape" src="{{ URL::asset('images/f-shape-1.svg') }}" alt="Shape">
@@ -155,14 +155,14 @@
                         </div>
                         <div class="features-content">
                             <p class="text">Nous sommes la référence  pour l' Installation et rénovation électrique et les Dépannages Electriques.</p>
-                            <a class="features-btn" href="#">En savoir plus</a>
+                            <a class="features-btn" href="/Electricite">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
                 </div>
                 <div  data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 351px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Climatisation</a></h4>
+                            <h4 class="features-title"><a href="/Climatisation">Climatisation</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-apartment"></i>
                                 <img class="shape" src="{{ URL::asset('images/f-shape-1.svg') }}" alt="Shape">
@@ -170,14 +170,14 @@
                         </div>
                         <div class="features-content">
                             <p class="text">Pour toute installation Système de climatisation, Building Infrastructure Technology (BifmTec) vous accompagne.</p>
-                            <a class="features-btn" href="#">En savoir plus</a>
+                            <a class="features-btn" href="/Climatisation">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
                 </div>
                 <div  data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 351px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Sécurité</a></h4>
+                            <h4 class="features-title"><a href="/Securite">Sécurité</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-protection"></i>
                                 <img class="shape" src="{{ URL::asset('images/f-shape-1.svg') }}" alt="Shape">
@@ -185,15 +185,15 @@
                         </div>
                         <div class="features-content">
                             <p class="text">Vidéosurveillance et contrôle d´accès, BifmTec dispose des outils moderne (Alarme intrusion, Vidéo protection, Domotique etc.) pour la protection de vos bien.</p>
-                            <a class="features-btn" href="#">En savoir plus</a>
+                            <a class="features-btn" href="/Securite">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
                 </div>
 
                 <div  data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 351px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Domotique</a></h4>
+                            <h4 class="features-title"><a href="/Domotique">Domotique</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-home"></i>
                                 <img class="shape" src="{{ URL::asset('images/f-shape-1.svg') }}" alt="Shape">
@@ -201,15 +201,15 @@
                         </div>
                         <div class="features-content">
                             <p class="text">La domotique est l'ensemble des techniques de l'électronique, de physique du bâtiment, d'automatisme, de l'informatique et des télécommunications utilisées dans les bâtiments  .</p>
-                            <a class="features-btn" href="#">En savoir plus</a>
+                            <a class="features-btn" href="/Domotique">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
                 </div>
 
                 <div  data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 351px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Facility management</a></h4>
+                            <h4 class="features-title"><a href="/FacilityManagement">Facility management</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-handshake"></i>
                                 <img class="shape" src="{{ URL::asset('images/f-shape-1.svg') }}" alt="Shape">
@@ -217,15 +217,15 @@
                         </div>
                         <div class="features-content">
                             <p class="text">Le Facility management qui veut dire Gestion des installations se définit comme l’ensemble des services et prestations liés a la bonne gestion opérationnelle et Stratégiques des entreprises.</p>
-                            <a class="features-btn" href="#">En savoir plus</a>
+                            <a class="features-btn" href="/FacilityManagement">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
                 </div>
 
                 <div  data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 351px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">BI Shop</a></h4>
+                            <h4 class="features-title"><a href="/BiShop">BI Shop</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-shopping-basket"></i>
                                 <img class="shape" src="{{ URL::asset('images/f-shape-1.svg') }}" alt="Shape">
@@ -233,18 +233,16 @@
                         </div>
                         <div class="features-content">
                             <p class="text">Market place de produit divers distribuer par BiFm Tech.</p>
-                            <a class="features-btn" href="#">En savoir plus</a>
+                            <a class="features-btn" href="/BiShop">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-
     <!--====== FEATRES TWO PART ENDS ======-->
 
     <!--====== PORTFOLIO PART START ======-->
-
     <section id="portfolio" class="portfolio-area portfolio-four pb-100">
         <div class="container">
             <div class="row justify-content-center">
@@ -462,11 +460,11 @@
                             <p class="counter-info">Projets réalisés</p>
                         </div>
                         <div class="cell">
-                            <div class="counter-value number-count" data-count="57">57</div>
+                            <div class="counter-value number-count" data-count="127">127</div>
                             <p class="counter-info">Clients satisfait</p>
                         </div>
                         <div class="cell">
-                            <div class="counter-value number-count" data-count="163">163</div>
+                            <div class="counter-value number-count" data-count="93">93</div>
                             <p class="counter-info">Retour positif</p>
                         </div>
 
@@ -571,11 +569,6 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class=""></i></a></li>
-                                </ul>
-                            </div>
                             <h4 class="team-name"><a href="#">Un service sur-mesure</a></h4>
                             <span class="sub-title">personnalisé à vos besoins</span>
                         </div>
@@ -585,11 +578,6 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class=""></i></a></li>
-                                </ul>
-                            </div>
                             <h4 class="team-name"><a href="#">Respect du planning</a></h4>
                             <span class="sub-title">et des engagements</span>
                         </div>
@@ -599,11 +587,6 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class=""></i></a></li>
-                                </ul>
-                            </div>
                             <h4 class="team-name"><a href="#">SAV performant</a></h4>
                             <span class="sub-title">Garantie pièces & main d’oeuvre</span>
                         </div>
@@ -624,23 +607,16 @@
                         <p class="text">Nos contacts web et locale, disponible 24h/24 tous les jours!</p>
                     </div> <!-- section title -->
                 </div>
-            </div> <!-- row
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="contact-map mt-30">
-                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                    </div> <-- row -->
-               <!-- </div>
-            </div> <-- row -->
+            </div>
             <div class="contact-info pt-30">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-contact-info contact-color-1 mt-30 d-flex ">
                             <div class="contact-info-icon">
-                                <i class="lni lni-map-marker"></i>
+                                <i class="lni lni-whatsapp"></i>
                             </div>
                             <div class="contact-info-content media-body">
-                                <p class="text"> Adresse locale si disponible<br>Adresse locale.</p>
+                                <p class="text" style="margin-top: 15px"> 00229 XXX XXX XX</p>
                             </div>
                         </div> <!-- single contact info -->
                     </div>
@@ -661,7 +637,7 @@
                                 <i class="lni lni-facebook"></i>
                             </div>
                             <div class="contact-info-content media-body">
-                                <p class="text">@bifmtec</p>
+                                <p class="text" style="margin-top: 15px">@bifmtec</p>
                             </div>
                         </div> <!-- single contact info -->
                     </div>
@@ -672,7 +648,9 @@
                     <div class="contact-wrapper form-style-two pt-115">
                         <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Laisser nous <span>un message.</span></h4>
 
-                        <form id="contact-form" action="assets/contact.php" method="post">
+                        <form id="contact-form" action="/Devis" method="POST"
+                        enctype="multipart/form-data">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-input mt-25">
@@ -688,6 +666,7 @@
                                         <label>Email</label>
                                         <div class="input-items default">
                                             <input type="email" name="email" placeholder="Email">
+                                            <input type="text" name="category" value="MESSAGE" style="visibility: hidden">
                                             <i class="lni lni-envelope"></i>
                                         </div>
                                     </div> <!-- form input -->
@@ -696,7 +675,7 @@
                                     <div class="form-input mt-25">
                                         <label>Message</label>
                                         <div class="input-items default">
-                                            <textarea name="message" placeholder="Message"></textarea>
+                                            <textarea name="contact" placeholder="Message"></textarea>
                                             <i class="lni lni-pencil-alt"></i>
                                         </div>
                                     </div> <!-- form input -->
@@ -704,7 +683,7 @@
                                 <p class="form-message"></p>
                                 <div class="col-md-12">
                                     <div class="form-input light-rounded-buttons mt-30">
-                                        <button class="main-btn light-rounded-two">Envoyer</button>
+                                        <button class="main-btn light-rounded-two" type="submit" >Envoyer</button>
                                     </div> <!-- form input -->
                                 </div>
                             </div> <!-- row -->

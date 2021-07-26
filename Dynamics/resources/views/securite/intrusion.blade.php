@@ -8,7 +8,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img data-animation="animated zoomInUp" class="first-slide" src="assets/images/AI.jpg"
+                    <img data-animation="animated zoomInUp" class="first-slide" src="{{ URL::asset('images/AI.jpg') }}"
                         alt="First slide">
                     <div class="container">
                         <div class="carousel-caption text-left">
@@ -37,21 +37,21 @@
                                 <div class="card">
                                     <div class="card-header" id="headingOne">
                                         <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">L'insécurité est une réalité</a>
+                                            aria-controls="collapseOne">Alarme intrusion</a>
                                     </div>
 
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                         data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text" style="text-align: justify">Notre vocation est de vous
-                                                accompagner dans cette lutte contre le vol et le vandalisme.
-                                                Malencontreusement d’autres choses douloureuses peuvent arriver : incendie,
-                                                agression, inondation, malaise, ou panne électrique. Pour cela, tous nos
-                                                systèmes d’alarmes sont conçus afin de répondre à tous ces types de danger à
-                                                terme..</p>
+                                            <p class="text" style="text-align: justify">Face à la recrudescence du vol dans
+                                                nos ville et contrées, l’importance d’un système d’alarme n’est plus à
+                                                démontrer. Surtout lorsqu'il s'agit de protéger des biens de valeur ou vos
+                                                locaux professionnels, il est donc indispensable de se doter d’un système
+                                                d'alarme efficace. BifmTec vous Propose des Solutions et des appareils
+                                                adaptés à vos besoins.</p>
                                         </div>
                                     </div>
-                                </div> <!-- card -->
+                                </div> <!-- card --> <!-- card -->
                                 <div class="card">
                                     <div class="card-header" id="headingTwo">
                                         <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="about-image mt-50">
-                        <img src="assets/images/AIS.jpg" alt="about">
+                        <img src="{{ URL::asset('images/AIS.jpg') }}" alt="about">
                     </div> <!-- faq image -->
                 </div>
             </div> <!-- row -->
@@ -83,8 +83,8 @@
     </section>
     <section id="services" class="features-area">
         <div data-xanim="glideInUp" class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-10">
+            <div class="row justify-content-center" >
+                <div class="col-lg-6 col-md-10" >
                     <div class="section-title text-center pb-10">
                         <h3 class="title">Protection contre le vol</h3>
                         <p class="text"> Système anti-intrusion filaire & sans fil certifiés NFA2P.</p>
@@ -93,9 +93,9 @@
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 278px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Détecteur volumétrique</a></h4>
+                            <h4 class="features-title"><a >Détecteur volumétrique</a></h4>
                             <div class="features-icon">
                             </div>
                         </div>
@@ -110,9 +110,9 @@
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 278px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Périmétriques / périphériques</a></h4>
+                            <h4 class="features-title"><a >Périmétriques / périphériques</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -129,9 +129,9 @@
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 278px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Détecteur de vibration</a></h4>
+                            <h4 class="features-title"><a >Détecteur de vibration</a></h4>
 
                         </div>
                         <div class="features-content">
@@ -148,9 +148,9 @@
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 278px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Transmission</a></h4>
+                            <h4 class="features-title"><a >Transmission</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -169,9 +169,9 @@
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 278px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Signalisation</a></h4>
+                            <h4 class="features-title"><a >Signalisation</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -189,9 +189,9 @@
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 278px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Autre détecteur</a></h4>
+                            <h4 class="features-title"><a >Autre détecteur</a></h4>
                             <div class="features-icon">
 
                             </div>

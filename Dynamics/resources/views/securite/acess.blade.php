@@ -8,7 +8,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img data-animation="animated zoomInUp" class="first-slide" src="assets/images/CA.jpg"
+                    <img data-animation="animated zoomInUp" class="first-slide" src="{{ URL::asset('images/CA.jpg') }}"
                         alt="First slide">
                     <div class="container">
                         <div class="carousel-caption text-left">
@@ -49,7 +49,7 @@
                                                 l’identification d la personne.</p>
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
                                 <div class="card">
                                     <div class="card-header" id="headingTwo">
                                         <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
@@ -69,16 +69,16 @@
                                 </div>
 
                             </div>
-                        </div> 
-                    </div> 
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="about-image mt-50">
-                        <img src="assets/images/CAS.jpg" alt="about">
+                        <img src="{{ URL::asset('images/CAS.jpg') }}" alt="about">
                     </div>
                 </div>
-            </div> 
-        </div> 
+            </div>
+        </div>
     </section>
 
     <section id="services" class="features-area">
@@ -93,24 +93,25 @@
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 278px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Interphone à combiné </a></h4>
+                            <h4 class="features-title"><a>Interphone</a></h4>
                             <div class="features-icon">
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">Design et élégances, les vidéophones à combiner associent robustesse &
-                                simplicité. Les performances ne sont pas lésiné avec un affichage sur écran TFT de 4,3
-                                pouces.</p>
+                            <p class="text">
+                                Nous proposons à notre clientèle des solutions de visiophonie/vidéophone et d’interphone
+                                pour les habitations résidentielles, les logements collectifs, les entreprises,
+                                administrations et industrie.</p>
 
                         </div>
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 278px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Interphone Sans-fil</a></h4>
+                            <h4 class="features-title"><a>Interphone Sans-fil</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -123,9 +124,9 @@
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 278px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Interphone Tactile</a></h4>
+                            <h4 class="features-title"><a>Interphone Tactile</a></h4>
 
                         </div>
                         <div class="features-content">
@@ -138,9 +139,9 @@
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 488px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Interphone IP/GSM</a></h4>
+                            <h4 class="features-title"><a>Interphone IP/GSM</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -154,25 +155,26 @@
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 488px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">AUTOMATISME</a></h4>
+                            <h4 class="features-title"><a>Interphone à combiné </a></h4>
                             <div class="features-icon">
 
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">A chaque accès une solution. BIFM vous conseille sur les meilleures solutions de
-                                motorisations et équipements des portails et barrières automatique quelques soit le type de
-                                structure</p>
+                            <p class="text">
+                                Design et élégances, les vidéophones à combiner associent robustesse &
+                                simplicité. Les performances ne sont pas lésiné avec un affichage sur écran TFT de 4,3
+                                pouces.</p>
                         </div>
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 488px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">INTERPHONIE TERTIAIRE, RÉSIDENTIEL ET COLLECTIF</a></h4>
+                            <h4 class="features-title"><a>INTERPHONIE TERTIAIRE, RÉSIDENTIEL ET COLLECTIF</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -187,7 +189,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
 @endsection
 

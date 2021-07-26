@@ -8,7 +8,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img data-animation="animated zoomInUp" class="first-slide" src="assets/images/VS.jpg"
+                    <img data-animation="animated zoomInUp" class="first-slide" src="{{ URL::asset('images/VS.jpg') }}"
                         alt="First slide">
                     <div class="container">
                         <div class="carousel-caption text-left">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="about-image mt-50">
-                        <img src="assets/images/VSS.jpg" alt="about">
+                        <img src="{{ URL::asset('images/VSS.jpg') }}" alt="about">
                     </div> <!-- faq image -->
                 </div>
             </div> <!-- row -->
@@ -98,7 +98,7 @@
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#"> Caméras Starlight HD/IP</a></h4>
+                            <h4 class="features-title"><a> Caméras Starlight HD/IP</a></h4>
                             <div class="features-icon">
                             </div>
                         </div>
@@ -114,9 +114,9 @@
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 258px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Caméra bullet HD/IP</a></h4>
+                            <h4 class="features-title"><a>Caméra bullet HD/IP</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -135,7 +135,7 @@
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Caméras dômes HD/IP</a></h4>
+                            <h4 class="features-title"><a>Caméras dômes HD/IP</a></h4>
 
                         </div>
                         <div class="features-content">
@@ -153,7 +153,7 @@
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Caméras BOX HD/IP</a></h4>
+                            <h4 class="features-title"><a>Caméras BOX HD/IP</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -173,7 +173,7 @@
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Mini caméra cachée HD</a></h4>
+                            <h4 class="features-title"><a>Mini caméra cachée HD</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -191,9 +191,9 @@
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" >
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="#">Enregistreur / stockeur vidéo</a></h4>
+                            <h4 class="features-title"><a>Enregistreur / stockeur vidéo</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -204,7 +204,6 @@
                                 DVR HD Tri-hybride, NVR IP
                                 De 4 à 32 canaux analogique & numérique
                                 Stockage 2 HDD SATA
-
                             </p>
                         </div>
                     </div> <!-- single features -->
