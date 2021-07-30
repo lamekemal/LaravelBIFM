@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Bi-Shop')
 @section('content')
 
     <section id="home" class="slider_area">

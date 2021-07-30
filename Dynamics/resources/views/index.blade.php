@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Building Infrastructure and Facility Management Technology')
 
 @section('preloader')
 <div class="preloader">

@@ -8,6 +8,11 @@ use Illuminate\Http\Request;
 
 class SellingController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth',['except' => ['']]);
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -17,6 +22,22 @@ class SellingController extends Controller
     {
         return view('selling.index')
         ->with('sellings', Selling::orderBy('updated_at', 'DESC')->get());
+    }
+
+    public function traite()
+    {
+        return view('selling.traite')
+        ->with('sellings', Selling::where('status', '1')
+        ->orderBy('updated_at', 'DESC')
+        ->get());
+    }
+
+    public function ntraite()
+    {
+        return view('selling.ntraite')
+        ->with('sellings', Selling::where('status', '0')
+        ->orderBy('updated_at', 'DESC')
+        ->get());
     }
 
     /**

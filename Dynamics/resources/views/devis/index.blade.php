@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Devis et messages clients')
 @section('content')
 <section id="about" class="about-area" style="margin-top: 125px">
 
@@ -61,7 +61,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="about-image mt-50">
-                                <img src="{{ URL::asset('images/devis.jpg') }}" alt="about">
+                                <img src="{{ URL::asset('images/msg.png') }}" alt="about">
                             </div> <!-- faq image -->
                         </div>
                     </div> <!-- row -->

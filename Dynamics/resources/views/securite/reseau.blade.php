@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Cablage Réseau')
 @section('content')
 <section id="home" class="slider_area">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

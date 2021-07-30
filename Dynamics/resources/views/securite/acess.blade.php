@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Système de controle d\'accès ')
 @section('content')
     <section id="home" class="slider_area">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">

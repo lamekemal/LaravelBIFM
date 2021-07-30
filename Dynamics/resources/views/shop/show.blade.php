@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Commande d\'article BiShop')
 @section('content')
 
     <section id="about" class="about-area">

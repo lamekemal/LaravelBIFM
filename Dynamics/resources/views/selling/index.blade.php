@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Bishop Gestion de la boutique')
 @section('content')
     <section id="about" class="about-area" style="margin-top: 125px">
 

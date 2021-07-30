@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Securité')
 @section('content')
 
     <section id="home" class="slider_area">

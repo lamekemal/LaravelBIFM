@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.9.2
+- https://www.phpmyadmin.net
+-
+- Hôte : 127.0.0.1:3306
+- Généré le :  jeu. 29 juil. 2021 à 18:13
+- Version du serveur :  10.4.10-MariaDB
+- Version de PHP :  7.3.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="bifmt1643207" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="devis">
+                CREATE TABLE `devis` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `contact` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `category` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `status` tinyint(1) NOT NULL DEFAULT 0,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  `updated_at` timestamp NULL DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+            <pma:table name="failed_jobs">
+                CREATE TABLE `failed_jobs` (
+                  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+                  `uuid` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `connection` text COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `queue` text COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `payload` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `exception` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `failed_at` timestamp NOT NULL DEFAULT current_timestamp(),
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `failed_jobs_uuid_unique` (`uuid`) USING HASH
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+            <pma:table name="migrations">
+                CREATE TABLE `migrations` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `migration` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `batch` int(11) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+            <pma:table name="password_resets">
+                CREATE TABLE `password_resets` (
+                  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `token` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  KEY `password_resets_email_index` (`email`(250))
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+            <pma:table name="posts">
+                CREATE TABLE `posts` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `description` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `image_path` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  `updated_at` timestamp NULL DEFAULT NULL,
+                  `user_id` bigint(20) unsigned NOT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `posts_user_id_foreign` (`user_id`)
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+            <pma:table name="products">
+                CREATE TABLE `products` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `price` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `description` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `image_path` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  `updated_at` timestamp NULL DEFAULT NULL,
+                  `user_id` bigint(20) unsigned NOT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `products_user_id_foreign` (`user_id`)
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+            <pma:table name="sellings">
+                CREATE TABLE `sellings` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `contact` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `status` tinyint(1) NOT NULL DEFAULT 0,
+                  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `price` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `description` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `image_path` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  `updated_at` timestamp NULL DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `sellings_slug_foreign` (`slug`(250)),
+                  KEY `sellings_title_foreign` (`title`(250)),
+                  KEY `sellings_price_foreign` (`price`(250)),
+                  KEY `sellings_description_foreign` (`description`(250)),
+                  KEY `sellings_image_path_foreign` (`image_path`(250))
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+                  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `email_verified_at` timestamp NULL DEFAULT NULL,
+                  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  `updated_at` timestamp NULL DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `users_email_unique` (`email`) USING HASH
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données :  'bifmt1643207'
+    -->
+    <database name="bifmt1643207">
+        <!-- Table devis -->
+        <!-- Table failed_jobs -->
+        <!-- Table migrations -->
+        <table name="migrations">
+            <column name="id">1</column>
+            <column name="migration">2014_10_12_000000_create_users_table</column>
+            <column name="batch">1</column>
+        </table>
+        <table name="migrations">
+            <column name="id">2</column>
+            <column name="migration">2014_10_12_100000_create_password_resets_table</column>
+            <column name="batch">1</column>
+        </table>
+        <table name="migrations">
+            <column name="id">3</column>
+            <column name="migration">2019_08_19_000000_create_failed_jobs_table</column>
+            <column name="batch">1</column>
+        </table>
+        <table name="migrations">
+            <column name="id">4</column>
+            <column name="migration">2021_07_21_161112_posts</column>
+            <column name="batch">1</column>
+        </table>
+        <table name="migrations">
+            <column name="id">5</column>
+            <column name="migration">2021_07_25_140329_products</column>
+            <column name="batch">1</column>
+        </table>
+        <table name="migrations">
+            <column name="id">6</column>
+            <column name="migration">2021_07_25_164500_devis</column>
+            <column name="batch">1</column>
+        </table>
+        <table name="migrations">
+            <column name="id">7</column>
+            <column name="migration">2021_07_25_164510_selling</column>
+            <column name="batch">1</column>
+        </table>
+        <!-- Table password_resets -->
+        <!-- Table posts -->
+        <!-- Table products -->
+        <!-- Table sellings -->
+        <!-- Table users -->
+    </database>
+</pma_xml_export>

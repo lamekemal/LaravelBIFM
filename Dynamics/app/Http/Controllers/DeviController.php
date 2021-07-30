@@ -8,6 +8,12 @@ use Cviebrock\EloquentSluggable\Services\SlugService;
 
 class DeviController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth',['except' => ['']]);
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -17,6 +23,22 @@ class DeviController extends Controller
     {
         return view('devis.index')
         ->with('devis', Devi::orderBy('updated_at', 'DESC')->get());
+    }
+
+    public function traite()
+    {
+        return view('devis.traite')
+        ->with('devis', Devi::where('status', '1')
+        ->orderBy('updated_at', 'DESC')
+        ->get());
+    }
+
+    public function ntraite()
+    {
+        return view('devis.ntraite')
+        ->with('devis', Devi::where('status', '0')
+        ->orderBy('updated_at', 'DESC')
+        ->get());
     }
 
     /**
