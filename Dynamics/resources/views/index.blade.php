@@ -617,7 +617,7 @@
                                 <i class="lni lni-whatsapp"></i>
                             </div>
                             <div class="contact-info-content media-body">
-                                <p class="text" style="margin-top: 15px"> 00229 XXX XXX XX</p>
+                                <p class="text" style="margin-top: 15px"> 00229 99 14 25 03</p>
                             </div>
                         </div> <!-- single contact info -->
                     </div>
