@@ -14,7 +14,7 @@
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1 style = "color: #121212" data-animation="animated bounceInRight" >Climatisation.</h1>
-                <p style = "color: #121212" data-animation="animated zoomInRight" >Système de climatisation, matériel de climatisation BifmTec vous offre l'expertise et la qualité dans son service et vos besoins.</p>
+                <p style = "color: #121212" data-animation="animated zoomInRight" >Système de climatisation, matériel de climatisation Bifm-Tec vous offre l'expertise et la qualité dans son service et vos besoins.</p>
               </div>
             </div>
           </div>
@@ -83,11 +83,11 @@
                 </div>
             </div>
         </div>
-       <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-7 col-sm-9">
-                <div class="pricing-style mt-30">
+       <div class="row justify-content-center" >
+            <div class="col-lg-4 col-md-7 col-sm-9" >
+                <div class="pricing-style mt-30" style="height: 520px">
                     <div class="pricing-icon text-center">
-                        <!--img src="{{ URL::asset('images/basic.svg') }}" alt=""-->
+                        <img src="{{ URL::asset('images/zen1.png') }}" alt="">
                     </div>
                     <div class="pricing-header text-center">
                     <h5 class="sub-title">Climatiseur Mural</h5>
@@ -106,7 +106,7 @@
             <div class="col-lg-4 col-md-7 col-sm-9">
                 <div class="pricing-style mt-30">
                     <div class="pricing-icon text-center">
-                        <!--img src="{{ URL::asset('images/pro.svg') }}" alt=""-->
+                        <img src="{{ URL::asset('images/zen2.png') }}" alt="">
                     </div>
                     <div class="pricing-header text-center">
                     <h5 class="sub-title">Climatiseur Cassette</h5>

@@ -25,6 +25,15 @@
                 <input type="text" style="margin:15px;" name="price" placeholder="Prix du produit Ex: 1500 XOF" class="form-control">
                 <textarea name="description" style="margin:15px;" placeholder=" Description"
                     class="form-control"> </textarea>
+                    <div>
+                        <label for="exampleFormControlSelect1">Categorie de l'article</label>
+                        <select name="cat" class="form-control" id="exampleFormControlSelect1">
+                          <option  value="1">Electricite</option>
+                          <option  value="2">Climatisation</option>
+                          <option  value="3">Securite</option>
+                          <option  value="4">Domotique</option>
+                        </select>
+                      </div>
                 <div class="custom-file" style="margin:15px;">
                     <input type="file" class="custom-file-input" id="customFileLang" lang="fr" name="image">
                     <label class="custom-file-label" for="customFileLang">Selectionner une image de description</label>

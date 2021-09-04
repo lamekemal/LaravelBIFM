@@ -44,10 +44,10 @@
                                         data-parent="#accordionExample">
                                         <div class="card-body">
                                             <p class="text" style="text-align: justify">Face à la recrudescence du vol dans
-                                                nos ville et contrées, l’importance d’un système d’alarme n’est plus à
+                                                nos villes et contrées, l’importance d’un système d’alarme n’est plus à
                                                 démontrer. Surtout lorsqu'il s'agit de protéger des biens de valeur ou vos
                                                 locaux professionnels, il est donc indispensable de se doter d’un système
-                                                d'alarme efficace. BifmTec vous Propose des Solutions et des appareils
+                                                d'alarme efficace. Bifm-Tec vous Propose des Solutions et des appareils
                                                 adaptés à vos besoins.</p>
                                         </div>
                                     </div>
@@ -60,7 +60,7 @@
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                         data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text" style="text-align: justify"> Une protection adaptée D’une
+                                            <p class="text" style="text-align: justify"> D’une
                                                 installation simple à la base, nous pouvons la faire évoluer vers une
                                                 protection TOTALE selon vos besoins et votre budget. En vous adressant à
                                                 nous, vous êtes certain de bénéficier des conseils de nos experts pour faire
@@ -87,13 +87,12 @@
                 <div class="col-lg-6 col-md-10" >
                     <div class="section-title text-center pb-10">
                         <h3 class="title">Protection contre le vol</h3>
-                        <p class="text"> Système anti-intrusion filaire & sans fil certifiés NFA2P.</p>
                     </div> <!-- row -->
                 </div>
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 278px">
+                    <div class="single-features mt-40" style="height: 425px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a >Détecteur volumétrique</a></h4>
                             <div class="features-icon">
@@ -101,16 +100,17 @@
                         </div>
                         <div class="features-content">
                             <p class="text">
-                                Détecteur infrarouge
-                                Détecteur infrarouge vectoriel
-                                Détecteur double technologie
-                                Détecteur PIR CAM.
+                                Détecteur infrarouge <br>
+                                Détecteur infrarouge vectoriel <br>
+                                Détecteur double technologie <br>
+                                Détecteur PIR CAM. <br>
                             </p>
                         </div>
+                        <img style="max-height: 200px"  src="{{ URL::asset('images/zen3.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 278px">
+                    <div class="single-features mt-40" style="height: 425px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a >Périmétriques / périphériques</a></h4>
                             <div class="features-icon">
@@ -119,31 +119,26 @@
                         </div>
                         <div class="features-content">
                             <p class="text">
-
-                                Contact d’ouverture de surface
-                                Contact d’ouverture encastrable
-                                Barrière infrarouge
-
+                                Contact d’ouverture de surface <br>
+                                Contact d’ouverture encastrable <br>
+                                Barrière infrarouge <br>
                             </p>
                         </div>
+                        <img style="max-height: 200px" src="{{ URL::asset('images/zen4.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 278px">
+                    <div class="single-features mt-40" style="height: 425px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a >Détecteur de vibration</a></h4>
 
                         </div>
                         <div class="features-content">
                             <p class="text">
-
                                 Vibration sur verre
-                                Acoustique rupture de verre
-                                Inertiel (choc avec réglage de sensibilité)
-                                Sismique (bruit: perceuse, explosion…etc)
-
                             </p>
                         </div>
+                        <img style="max-height: 250px" src="{{ URL::asset('images/zen5.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
@@ -157,13 +152,10 @@
                         </div>
                         <div class="features-content">
                             <p class="text">
-
-                                Télésurveillance certifié APSAD
-                                Transmission vocale
-                                Transmission GSM / IP
-                                Application mobile/ Tablette & Pc
-
-                                .</p>
+                                Télésurveillance certifié APSAD <br>
+                                Transmission vocale <br>
+                                Transmission GSM / IP <br>
+                                Application mobile/ Tablette & Pc <br></p>
                         </div>
                     </div> <!-- single features -->
                 </div>
@@ -178,11 +170,8 @@
                         </div>
                         <div class="features-content">
                             <p class="text">Signalisation
-
-                                Sirène extérieur avec flash
-                                Sirène intérieur 110 db
-                                Générateur de brouillard (opaque – incapacitant)
-
+                                Sirène extérieur <br>
+                                Sirène intérieur <br>
                             </p>
                         </div>
                     </div> <!-- single features -->
@@ -198,11 +187,10 @@
                         </div>
                         <div class="features-content">
                             <p class="text">
-
-                                Sonde d’innondation
-                                Sonde de température
-                                Détecteur de fumée
-
+                                Sonde d’innondation<br>
+                                Sonde d’humidite<br>
+                                Sonde de température<br>
+                                Détecteur de fumée<br>
                             </p>
                         </div>
                     </div> <!-- single features -->

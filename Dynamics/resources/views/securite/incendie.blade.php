@@ -13,8 +13,7 @@
                     <div class="container">
                         <div class="carousel-caption text-left">
                             <h1 data-animation="animated bounceInDown" style="color: #121212">Alarme incendie</h1>
-                            <p data-animation="animated lightSpeedIn" style="color: #121212">Installlateur d'Alarme
-                                incendie.</p>
+                            <p data-animation="animated lightSpeedIn" style="color: #121212">Maintenance et installation.</p>
                         </div>
                     </div>
                 </div>
@@ -43,38 +42,16 @@
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                         data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text" style="text-align: justify">Malheureusement en milieu urbain
-                                                plus de 25000 sinistres sont déclarés par an avec plusieurs milliers de
-                                                victimes d’incendie recensées.
-
-                                                80 % environ ont eu lieu dans des habitations et les 20 % restants se
-                                                répartissent entre les ERP (établissement recevant du public), les
-                                                entrepôts, les bureaux, les locaux industriels…etc</p>
+                                            <p class="text" style="text-align: justify">Une alarme incendie est un système de sécurité
+                                                qui est utilisé très souvent dans des Batiments et qui a pour but de détecter en amont
+                                                un départ de feu (par détection de fumée ou déclenchement manuel) afin de mettre le
+                                                plus rapidement possible en sécurité les personnes et les biens présents au sein
+                                                du bâtiment. Dans ce genre de situation, le temps est précieux,
+                                                et chaque seconde gagnée vous permet de réagir plus efficacement pour limiter
+                                                les dégâts avant que le feu ne soit pleinement déclaré</p>
                                         </div>
                                     </div>
                                 </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
-                                            Un système de sécurité incendie doit permettre </a>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                        data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text" style="text-align: justify">
-
-                                                La détection d’un incendie le plus tôt possible (par détection de fumée ou
-                                                déclenchement manuel).
-
-                                                La mise en sécurité des personnes : par la signalisation de l’existence d’un
-                                                sinistre (signalisations sonores et lumineuses) et par l’évacuation des
-                                                personnes (balisage des issues, ouverture des issues de secours…etc).
-
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div> <!-- faq accordion -->
                     </div> <!-- faq content -->
@@ -95,14 +72,14 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
-                        <h3 class="title">Ce que nous somme : </h3>
-                        <p class="text">Votre partenaire pour l'installation & la gestion de votre SSI Type 1 - 4 </p>
+                        <h3 class="title">BIFM-Tec: </h3>
+                        <p class="text">Votre partenaire pour l'installation & la gestion de votre SSI Type 1-4 </p>
                     </div> <!-- row -->
                 </div>
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 448px">
+                    <div class="single-features mt-40" style="height: 648px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a >Déclencheurs manuels (DM) </a></h4>
                             <div class="features-icon">
@@ -116,10 +93,11 @@
 
                             </p>
                         </div>
+                        <img style="max-height: 250px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen6.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 448px">
+                    <div class="single-features mt-40" style="height: 648px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a >Détecteurs automatiques (DA)</a></h4>
                             <div class="features-icon">
@@ -135,10 +113,11 @@
 
                             </p>
                         </div>
+                        <img style="max-height: 250px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen7.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 448px">
+                    <div class="single-features mt-40" style="height: 648px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a >Equipement de contrôle des signalisations (ECS)</a></h4>
 
@@ -154,11 +133,12 @@
 
                             </p>
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen8.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 363px">
+                    <div class="single-features mt-40" style="height: 563px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Centralisateur de mise en sécurité</a></h4>
                             <div class="features-icon">
@@ -172,11 +152,12 @@
                                 dispositifs actionnés de sécurité (DAS)
                                 Constitue l’unité de signalisation.</p>
                         </div>
+                        <img style="max-height: 200px; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen9.png') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 363px">
+                    <div class="single-features mt-40" style="height: 563px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a  >Diffuseur sonores</a></h4>
                             <div class="features-icon">
@@ -193,11 +174,12 @@
 
                             </p>
                         </div>
+                        <img style="max-height: 200px; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen10.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 363px">
+                    <div class="single-features mt-40" style="height: 563px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a >Dispositifs actionné de sécurité (DAS)</a></h4>
                             <div class="features-icon">
@@ -214,6 +196,7 @@
 
                             </p>
                         </div>
+                        <img style="max-height: 200px; position: absolute; bottom: 0; margin-bottom: 25px" src="{{ URL::asset('images/zen11.png') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
             </div> <!-- row -->

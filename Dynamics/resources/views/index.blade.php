@@ -106,7 +106,7 @@
 
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text" style="text-align: justify">BifmTec est une Entreprise spécialisée dans l’électricité générale, la climatisation, la vidéosurveillance et le contrôle d´accès. Elle offre des services de gestion pour des biens immobiliers de tous types d'utilisation pemettant ainsi de sécuriser et d'augmenter la valeur potentielle de ces derniers.</p>
+                                            <p class="text" style="text-align: justify">Bifm-Tec est une Entreprise spécialisée dans l’électricité générale, la climatisation, la vidéosurveillance et le contrôle d´accès. Elle offre des services de gestion pour des biens immobiliers de tous types d'utilisation pemettant ainsi de sécuriser et d'augmenter la valeur potentielle de ces derniers.</p>
                                         </div>
                                     </div>
                                 </div> <!-- card -->
@@ -116,7 +116,7 @@
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text" style="text-align: justify">BifmTec a pour objectif de répondre aux enjeux de développement durable dans le secteur du bâtiment en proposant des solutions durables et des prestations de qualité grâce à son esprit d’écoute, son excellente compréhension des besoins des clients, l’engagement constant et le savoir-faire de son équipe constituée de Techniciens compétents et experts du bâtiment. </p>
+                                            <p class="text" style="text-align: justify">Bifm-Tec a pour objectif de répondre aux enjeux de développement durable dans le secteur du bâtiment en proposant des solutions durables, modernes et des prestations de qualité grâce à son esprit d’écoute, son excellente compréhension des besoins des clients, l’engagement constant et le savoir-faire de son équipe constituée de Techniciens compétents et experts du bâtiment. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
                         <h3 class="title">Nos services</h3>
-                        <p class="text">Professionnel ou particulier, pour une habitation individuelle, ou un local commercial. BifmTec c’est l’assurance d’être bien accompagné tout au long de son projet de l’étude à la réalisation!</p>
+                        <p class="text">Professionnel ou particulier, pour une habitation individuelle, ou un local commercial. Bifm-Tec c’est l’assurance d’être bien accompagné tout au long de son projet de l’étude à la réalisation!</p>
                     </div> <!-- row -->
                 </div>
             </div> <!-- row -->
@@ -155,7 +155,7 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">Nous sommes la référence  pour l' Installation et rénovation électrique et les Dépannages Electriques.</p>
+                            <p class="text">Nous sommes la référence  pour l' installation, la rénovation et les dépannages électriques.</p>
                             <a class="features-btn" href="/Electricite">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
@@ -170,7 +170,7 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">Pour toute installation Système de climatisation, Building Infrastructure Technology (BifmTec) vous accompagne.</p>
+                            <p class="text">Bifm-Tec vous accompagne dans la conception et la realisation de votre systeme de climatisation.</p>
                             <a class="features-btn" href="/Climatisation">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
@@ -185,7 +185,7 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">Vidéosurveillance et contrôle d´accès, BifmTec dispose des outils moderne (Alarme intrusion, Vidéo protection, Domotique etc.) pour la protection de vos bien.</p>
+                            <p class="text">Bifm-Tec dispose des outils modernes (Alarme intrusion, Vidéo protection, Domotique etc.) pour la protection de vos biens.</p>
                             <a class="features-btn" href="/Securite">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
@@ -201,7 +201,7 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">La domotique est l'ensemble des techniques de l'électronique, de physique du bâtiment, d'automatisme, de l'informatique et des télécommunications utilisées dans les bâtiments  .</p>
+                            <p class="text">BIFM-Tec vous propose des conceptes personalisés et centralisés de vos installations, vous permettant a l´aide de votre Smartphone, Tablette ou Ordinateur de pilloter et gerer au mieux ces derniers.</p>
                             <a class="features-btn" href="/Domotique">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
@@ -217,7 +217,7 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">Le Facility management qui veut dire Gestion des installations se définit comme l’ensemble des services et prestations liés a la bonne gestion opérationnelle et Stratégiques des entreprises.</p>
+                            <p class="text">L’objectif premier du facility management est d’apporter un service complet en termes de gestion de l’ensemble d'un immobilier. BIFM offres des Services de maintenance pour votre Batiment permettant à vous et à vos employer de travailler en toute quietude et de valoriser votre bien immobilier.</p>
                             <a class="features-btn" href="/FacilityManagement">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
@@ -226,14 +226,14 @@
                 <div  data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40" style="height: 351px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a href="/BiShop">BI Shop</a></h4>
+                            <h4 class="features-title"><a href="/BiShop">Bi-Shop</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-shopping-basket"></i>
                                 <img class="shape" src="{{ URL::asset('images/f-shape-1.svg') }}" alt="Shape">
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">Market place de produit divers distribuer par BiFm Tech.</p>
+                            <p class="text">Market place de produit divers distribuer par BiFm-Tec.</p>
                             <a class="features-btn" href="/BiShop">En savoir plus</a>
                         </div>
                     </div> <!-- single features -->
@@ -638,7 +638,7 @@
                                 <i class="lni lni-facebook"></i>
                             </div>
                             <div class="contact-info-content media-body">
-                                <p class="text" style="margin-top: 15px">@bifmtec</p>
+                                <p class="text" style="margin-top: 15px">@Bifmtec</p>
                             </div>
                         </div> <!-- single contact info -->
                     </div>

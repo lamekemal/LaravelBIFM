@@ -11,7 +11,7 @@ class Product extends Model
     use HasFactory;
     use Sluggable;
 
-    protected $fillable = ['title', 'price', 'slug', 'description', 'image_path','user_id'];
+    protected $fillable = ['title', 'price', 'slug', 'description', 'cat', 'image_path','user_id'];
 
     /*public function post(){
         return $this->hasMany(Post::class);

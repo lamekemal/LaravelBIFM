@@ -14,7 +14,7 @@
                         <div class="carousel-caption text-left">
                             <h1 data-animation="animated bounceInDown" style="color: #121212">Vidéosurveillance et contrôle
                                 d´accès.</h1>
-                            <p data-animation="animated lightSpeedIn" style="color: #121212">Ayez toujours un œil... </p>
+                            <p data-animation="animated lightSpeedIn" style="color: #121212; padding-bottom :22px">Ayez toujours un œil... </p>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 458px"    >
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a> Caméras Starlight HD/IP</a></h4>
                             <div class="features-icon">
@@ -111,14 +111,14 @@
 
                             </p>
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen12.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 258px">
+                    <div class="single-features mt-40" style="height: 458px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Caméra bullet HD/IP</a></h4>
                             <div class="features-icon">
-
                             </div>
                         </div>
                         <div class="features-content">
@@ -130,10 +130,11 @@
 
                             </p>
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen13.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 458px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Caméras dômes HD/IP</a></h4>
 
@@ -144,14 +145,14 @@
                                 Dôme fixe ou motorisé
                                 Degré de protection IP66
                                 Résolution numérique: 1080P 2.4 – 8 Mp
-
                                 .</p>
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen14.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 458px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Caméras BOX HD/IP</a></h4>
                             <div class="features-icon">
@@ -167,11 +168,12 @@
 
                             </p>
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen15.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
+                    <div class="single-features mt-40" style="height: 458px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Mini caméra cachée HD</a></h4>
                             <div class="features-icon">
@@ -180,18 +182,17 @@
                         </div>
                         <div class="features-content">
                             <p class="text">
-
                                 Mini caméra couleur pour l’intérieur
                                 Résolution numérique: 1080P / 2MP
                                 Support de lyre orientable
-
                             </p>
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen16.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" >
+                    <div class="single-features mt-40" style="height: 458px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Enregistreur / stockeur vidéo</a></h4>
                             <div class="features-icon">
@@ -206,6 +207,7 @@
                                 Stockage 2 HDD SATA
                             </p>
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen17.png') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
             </div> <!-- row -->

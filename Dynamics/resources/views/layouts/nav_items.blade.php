@@ -8,7 +8,6 @@
       <a class="dpdtx" href="/Securite/Alarme-incendie">Alarme incendie</a>
       <a class="dpdtx" href="/Securite/Video-surveillance">Video surveillance</a>
       <a class="dpdtx" href="/Securite/Control-acces">Contrôl d'accès</a>
-      <a class="dpdtx" href="/Securite/Cablage-reseau">Câblage réseau</a>
     </div>
   </div>
 </li>

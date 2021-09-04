@@ -15,9 +15,9 @@
                         <div class="carousel-caption text-left">
                             <h1 data-animation="animated bounceInDown" style="color: #121212">Installation et rénovation
                                 électrique.</h1>
-                            <p data-animation="animated lightSpeedIn" style="color: #121212">BifmTec réalise l’installation
+                            <p data-animation="animated lightSpeedIn" style="color: #121212">Bifm-Tec réalise l’installation
                                 électrique de vos maison entreprise et vous accompagne depuis l’établissement du devis
-                                jusqu’à l’installation de votre projet</p>
+                                jusqu’à l'accomplissement de votre projet</p>
                         </div>
                     </div>
                 </div>
@@ -43,9 +43,9 @@
                                     <div class="card-body">
                                         <p class="text" style="text-align: justify">Il est aujourd’hui impensable de vivre
                                             dans un monde sans électricité tant les appareils électriques se multiplient
-                                            dans nos foyers. BifmTec réalise l’installation électrique de vos maison ou
+                                            dans nos foyers. Bifm-Tec réalise l’installation électrique de vos maison ou
                                             entreprise et vous accompagne depuis l’établissement du devis jusqu’à
-                                            l’installation de votre projet. </p>
+                                            l’accomplissement de votre projet. </p>
                                     </div>
                                     <div class="card-body">
                                         <p class="text" style="text-align: justify">Ainsi profitez de notre expertise en
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">Nous disposon de toute les technologie de pointe pour une installation solaire
+                            <p class="text">Nous disposons de toute les technologies de pointe pour une installation solaire
                                 durable et efficiente.</p>
                         </div>
                     </div> <!-- single features -->

@@ -126,10 +126,10 @@ $(window).on('scroll', function (event) {
     var scroll = $(window).scrollTop();
     if (scroll < 20) {
         $(".navbar-area").removeClass("sticky");
-        $(".navbar-area img").attr("src", "images/logo.png");
+        $(".navbar-area img").attr("src", "../images/logo.png");
     } else {
         $(".navbar-area").addClass("sticky");
-        $(".navbar-area img").attr("src", "images/logo.png");
+        $(".navbar-area img").attr("src", "../images/logo.png");
     }
 });
 

@@ -44,15 +44,10 @@
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                         data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <p class="text" style="text-align: justify">Le Facility management qui veut dire
-                                                Gestion des installations se définit comme l’ensemble des services et
-                                                prestations liés a la bonne gestion opérationnelle et Stratégiques des
-                                                entreprises. Dans les bâtiments, le confort de l'utilisateur et les
-                                                exigences de l'opérateur ont la plus haute priorité. La disponibilité du
-                                                système, l'efficacité énergétique et l'optimisation des coûts sont à la fois
-                                                une exigence et une obligation pour nous. Face à ces enjeux Nous vous
-                                                proposons des solutions intelligentes et des services innovants pour une
-                                                gestion efficace et durable de vos bâtiments et espaces.</p>
+                                            <p class="text" style="text-align: justify">Le principal avantage du Facility Management est de permettre
+                                                à une entreprise de se concentrer uniquement sur son métier de base, tout en bénéficiant
+                                                du savoir-faire de ses sous-traitants et d'une meilleure transparence en terme de coûts.
+                                                  Confier nous la gestions de vos Batiment et gagnez du Temps à consacrer et à vos activites primaire.</p>
                                         </div>
                                     </div>
                                 </div> <!-- card -->
@@ -96,25 +91,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div data-xanim="glideInUp" class="col">
-                    <div class="single-features mt-40" style="height:253px">
-                        <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a style="font-size: 25px; font-weight: bold;">Services generaux et Gestion de l'environnement de travail</a></h4>
-                            <div class="features-icon">
-
-                            </div>
-                        </div>
-                        <div class="features-content">
-                            <p class="text">
-                                Gestion de l'espace <br />
-                                Seervice d'accueil <br />
-                                Nettoyage <br />
-                                Catering <br />
-                                Sécurité <br />
-                            </p>
-                        </div>
-                    </div> <!-- single features -->
                 </div>
             </div>
         </div>

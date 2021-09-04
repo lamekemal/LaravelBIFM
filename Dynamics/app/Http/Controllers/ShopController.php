@@ -11,7 +11,7 @@ class ShopController extends Controller
     public function __construct()
     {
       //$this->middleware('auth', ['except' => ['index, show']]);
-        $this->middleware('auth', ['except' => ['index', 'show']]);
+        $this->middleware('auth', ['except' => ['index', 'show', 'elect', 'clim', 'secur', 'dom']]);
     }
 
     /**
@@ -27,6 +27,45 @@ class ShopController extends Controller
             ->with('products', Product::orderBy('updated_at', 'DESC')->get());
     }
 
+    public function elect()
+    {
+
+       // dd(Product::where('slug', 'cvefv')->value('image_path'));
+       return view('shop.index')
+            ->with('products', Product::where('cat', '1')
+            ->orderBy('updated_at', 'DESC')
+            ->get());
+    }
+
+    public function clim()
+    {
+
+       // dd(Product::where('slug', 'cvefv')->value('image_path'));
+       return view('shop.index')
+       ->with('products', Product::where('cat', '2')
+       ->orderBy('updated_at', 'DESC')
+       ->get());
+    }
+
+    public function secur()
+    {
+
+       // dd(Product::where('slug', 'cvefv')->value('image_path'));
+       return view('shop.index')
+       ->with('products', Product::where('cat', '3')
+       ->orderBy('updated_at', 'DESC')
+       ->get());
+    }
+
+    public function dom()
+    {
+
+       // dd(Product::where('slug', 'cvefv')->value('image_path'));
+       return view('shop.index')
+       ->with('products', Product::where('cat', '4')
+       ->orderBy('updated_at', 'DESC')
+       ->get());
+    }
     /**
      * Show the form for creating a new resource.
      *
@@ -73,6 +112,7 @@ class ShopController extends Controller
             'title' => $request->input('title'),
             'price' => $request->input('price'),
             'description' => $request->input('description'),
+            'cat' => $request->input('cat'),
             'slug' => SlugService::createSlug(Product::class, 'slug',  $request->title),
             'image_path' => $newImageName,
             'user_id' => auth()->user()->id

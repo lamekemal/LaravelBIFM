@@ -37,7 +37,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingOne">
                                         <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">Contrôle des personnesn</a>
+                                            aria-controls="collapseOne">Contrôle des personnes</a>
                                     </div>
 
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
@@ -46,7 +46,7 @@
                                             <p class="text" style="text-align: justify">Le contrôle d’accès offre la
                                                 possibilité de vérifier si une personne à les droits nécessaires d’accéder à
                                                 une zone de vos locaux à l’aide de badges ou tout autre éléments permettant
-                                                l’identification d la personne.</p>
+                                                l’identification de la personne.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@
                                                 d’éviter toute visite indésirable dans vos locaux, surtout pendant vos
                                                 heures d’absence.
 
-                                                Pour cela, OptionElect vous propose une large gamme de produits et logiciels
+                                                Pour cela, BIFM vous propose une large gamme de produits et logiciels
                                                 vous permettant un contrôle TOTAL des entrées et sorties. </p>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 278px">
+                    <div class="single-features mt-40" style="height: 478px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Interphone</a></h4>
                             <div class="features-icon">
@@ -106,10 +106,11 @@
                                 administrations et industrie.</p>
 
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen18.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 278px">
+                    <div class="single-features mt-40" style="height: 478px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Interphone Sans-fil</a></h4>
                             <div class="features-icon">
@@ -121,10 +122,11 @@
                                 systèmes de vidéophone sans-fil offrent également d’excellentes performances.</p>
 
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen19.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 278px">
+                    <div class="single-features mt-40" style="height: 478px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Interphone Tactile</a></h4>
 
@@ -135,6 +137,7 @@
                                 inégalable grâce à l’affichage sur un large écran de 7 pouces.</p>
 
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen20.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
@@ -151,6 +154,7 @@
                                 côté rue et contrôler les accès grâce aux nombreux avantages des vidéophones IP/GSM….</p>
 
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen21.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
@@ -168,6 +172,7 @@
                                 simplicité. Les performances ne sont pas lésiné avec un affichage sur écran TFT de 4,3
                                 pouces.</p>
                         </div>
+                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen22.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 

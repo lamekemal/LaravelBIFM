@@ -29,6 +29,10 @@ Route::get('/Selling/Nontraite', [DeviController::class, 'ntraite']);
 
 Route::resource('/Actualite', PostsController::class);
 Route::resource('/BiShop', ShopController::class);
+Route::get('/BiShop-Electricite', [ShopController::class, 'elect']);
+Route::get('/BiShop-Climatisation', [ShopController::class, 'clim']);
+Route::get('/BiShop-Securite', [ShopController::class, 'secur']);
+Route::get('/BiShop-Domotique', [ShopController::class, 'dom']);
 
 Route::resource('/Devis', DeviController::class);
 Route::resource('/Selling', SellingController::class);
