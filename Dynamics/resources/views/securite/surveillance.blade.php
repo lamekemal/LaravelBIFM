@@ -89,7 +89,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
-                        <h3 class="title">BiFm Tec</h3>
+                        <h3 class="title">BiFm-Tech</h3>
                         <p class="text"> Partenaire de votre système de surveillance</p>
                     </div> <!-- row -->
                 </div>

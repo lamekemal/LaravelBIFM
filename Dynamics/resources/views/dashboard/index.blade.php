@@ -77,7 +77,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-6 col-md-10">
                             <div class="section-title text-center pb-30">
-                                <h3 class="title">BOUTIQUE BISHOP</h3>
+                                <h3 class="title">BOUTIQUE Bi-Shop</h3>
                                 <span class="sub-title" style="color: #fff">.............................</span>
                                 <br/>
                                 <br/>
@@ -92,7 +92,7 @@
                             <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                                 <div class="team-content">
                                     <h4 class="team-name"><a>{{count($sellings) }}</a></h4>
-                                    <span class="sub-title">Nombre total des Achats BiShop</span>
+                                    <span class="sub-title">Nombre total des Achats Bi-Shop</span>
                                     <a href="/Selling" class="btn btn-outline-info"  style="margin: 5px">Aller à la page de gestion</a>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                             <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                                 <div class="team-content">
                                     <h4 class="team-name"><a>{{count($vsellings) }}</a></h4>
-                                    <span class="sub-title">Achat BiShop validé</span>
+                                    <span class="sub-title">Achat Bi-Shop validé</span>
                                     <a href="/Selling/Traite" class="btn btn-outline-info"  style="margin: 5px">Aller à la page de gestion</a>
                                 </div>
                             </div>

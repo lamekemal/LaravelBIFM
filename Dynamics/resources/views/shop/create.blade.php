@@ -3,7 +3,7 @@
 @section('content')
 
     <section id="about" class="about-area" style="margin-top: 125px">
-        <h3 style="margin:25px;"> Ajouter un produit à BiShop :</h3>
+        <h3 style="margin:25px;"> Ajouter un produit à Bi-Shop :</h3>
 
         @if ($errors->any())
             <div class="container" style="margin:25px;">

@@ -62,7 +62,7 @@
                                                 d’éviter toute visite indésirable dans vos locaux, surtout pendant vos
                                                 heures d’absence.
 
-                                                Pour cela, BIFM vous propose une large gamme de produits et logiciels
+                                                Pour cela, BiFm-Tech vous propose une large gamme de produits et logiciels
                                                 vous permettant un contrôle TOTAL des entrées et sorties. </p>
                                         </div>
                                     </div>

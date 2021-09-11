@@ -13,7 +13,7 @@
                         alt="First slide">
                     <div class="container">
                         <div class="carousel-caption text-left">
-                            <h1 data-animation="animated bounceInDown" style="color: #fff">Bi Shop</h1>
+                            <h1 data-animation="animated bounceInDown" style="color: #fff">Bi-Shop</h1>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Article Bishop non traité')
+@section('title', 'Article Bi-Shop non traité')
 @section('content')
     <section id="about" class="about-area" style="margin-top: 125px">
 
