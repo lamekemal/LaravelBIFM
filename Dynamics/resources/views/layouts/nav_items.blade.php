@@ -12,7 +12,7 @@
   </div>
 </li>
 <li class="nav-item"><a class="page-scroll" href="/Domotique">Domotique</a></li>
-<li class="nav-item"><a class="page-scroll" href="/FacilityManagement">FM</a></li>
+<li class="nav-item"><a class="page-scroll" href="/FacilityManagement">Facility management</a></li>
 <li class="nav-item"><a class="page-scroll" href="/Actualite">Actualités</a></li>
 <li class="nav-item"><a class="page-scroll" href="/#contact">Contact</a></li>
 <li class="nav-item" ><a class="page-scroll" href="/BiShop">Bi-Shop</a></li>

@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Facility Management-FM')
+@section('title', 'Facility Management - Fm')
 @section('content')
 
     <section id="home" class="slider_area">
@@ -13,9 +13,9 @@
                         alt="First slide">
                     <div class="container">
                         <div class="carousel-caption text-left">
-                            <h1 data-animation="animated bounceInDown" style="color: #121212">Facility Management-FM</h1>
-                            <p data-animation="animated lightSpeedIn" style="color: #121212">La Gestion des Installations ou
-                                Facility Management (FM) est un service PRO de notre équipe technique pour toutes
+                            <h1 data-animation="animated bounceInDown" style="color: #121212">Facility Management</h1>
+                            <p data-animation="animated lightSpeedIn" style="color: #121212">La gestion des installations ou
+                                Facility Management (Fm) est un service PRO de notre équipe technique pour toutes
                                 prestations de services.</p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                     <div class="faq-content mt-45">
                         <div class="about-title">
                             <h6 class="sub-title">Informations</h6>
-                            <h4 class="title">Facility Management-FM</h4>
+                            <h4 class="title">Facility Management - Fm</h4>
                         </div> <!-- faq title -->
                         <div class="about-accordion">
                             <div class="accordion" id="accordionExample">

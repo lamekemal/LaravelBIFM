@@ -43,7 +43,7 @@
                                     <div class="card-body">
                                         <p class="text" style="text-align: justify">Il est aujourd’hui impensable de vivre
                                             dans un monde sans électricité tant les appareils électriques se multiplient
-                                            dans nos foyers. Bifm-Tech réalise l’installation électrique de vos maison ou
+                                            dans nos foyers. <br> Bifm-Tech réalise l’installation électrique de vos maison ou
                                             entreprise et vous accompagne depuis l’établissement du devis jusqu’à
                                             l’accomplissement de votre projet. </p>
                                     </div>
@@ -120,7 +120,7 @@
                         </div>
                         <div class="features-content">
                             <p class="text">Notre service technique vous offre l'appui necessaire pour toute installation
-                                électrique (domicile ou entreprise).</p>
+                                électrique.</p>
                         </div>
                     </div> <!-- single features -->
                 </div>

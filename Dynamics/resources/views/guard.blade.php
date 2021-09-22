@@ -16,7 +16,7 @@
                             <h1 data-animation="animated bounceInDown" style="color: #121212">Votre Sécurité, Notre
                                 priorité.</h1>
                             <p data-animation="animated lightSpeedIn" style="color: #121212">Dans toute condition, Alarme
-                                intrusion, Vidéo protection, Contrôle d’accès électronique Bifm-Tech reste la
+                                intrusion, Vidéo protection, Contrôle d’accès électronique <br>Bifm-Tech reste la
                                 meilleure option.</p>
                         </div>
                     </div>
@@ -47,8 +47,8 @@
                                         data-parent="#accordionExample">
                                         <div class="card-body">
                                             <p class="text" style="text-align: justify">Notre vocation est de vous accompagner
-                                                dans la lutte contre le vol et le vandalisme. Bifm-Tech vous proposes des solutions
-                                                 completes d'alarme connecté pour votre local. L’installation d’un système d’alarme
+                                                dans la lutte contre le vol et le vandalisme. <br>Bifm-Tech vous proposes des solutions
+                                                 completes d'alarme connectée pour votre local. L’installation d’un système d’alarme
                                                  vous permet de disuader les cambrioleurs d’entrer et  de réduire ainsi  les vols.
                                                 Bénéficiez d’une protection 24 heures sur 24, d’un accès à distance et de la surveillance
                                                 de votre entreprise où que vous soyez via la caméra.
@@ -85,7 +85,7 @@
             </div> <!-- row -->
             <div class="row justify-content-center">
 
-                <div class="row">
+                <div class="row justify-content-center">
                     <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
                         <div class="single-features mt-40" style="height: 312px">
                             <div class="features-title-icon d-flex justify-content-between">
@@ -117,7 +117,7 @@
                     </div>
 
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
 
                     <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
                         <div class="single-features mt-40" style="height: 312px">

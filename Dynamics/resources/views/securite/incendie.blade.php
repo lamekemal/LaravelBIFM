@@ -72,7 +72,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
-                        <h3 class="title">BIFM-Tech: </h3>
+                        <h3 class="title">Bifm-Tech </h3>
                         <p class="text">Votre partenaire pour l'installation & la gestion de votre SSI Type 1-4 </p>
                     </div> <!-- row -->
                 </div>
@@ -88,7 +88,7 @@
                         <div class="features-content">
                             <p class="text">
 
-                                Déclencheur à membrane simple
+                                Déclencheur à membrane simple <br>
                                 Déclencheur avec indicateur mécanique d’état
 
                             </p>
@@ -107,8 +107,8 @@
                         <div class="features-content">
                             <p class="text">
 
-                                Détecteurs de fumée (optique / linéaire)
-                                Détecteurs de flamme
+                                Détecteurs de fumée (optique / linéaire) <br>
+                                Détecteurs de flamme <br>
                                 Détecteurs de chaleur (thermostatiques / thermovélocimétriques)
 
                             </p>
@@ -125,10 +125,10 @@
                         <div class="features-content">
                             <p class="text">
 
-                                Analyseur d’information reçues des détecteurs (DA/DM)
-                                Permet la localisation du lieu ou survient le sinistre
-                                Permet la surveillance du fonctionnement du système
-                                Emet une signalisation sonore et visuelle en fonction de l’état
+                                Analyseur d’information reçues des détecteurs (DA/DM) <br>
+                                Permet la localisation du lieu ou survient le sinistre<br>
+                                Permet la surveillance du fonctionnement du système<br>
+                                Emet une signalisation sonore et visuelle en fonction de l’état<br>
                                 Permet la mise en mémoire des informations relatives à son fonctionnement
 
                             </p>
@@ -148,7 +148,7 @@
                         <div class="features-content">
                             <p class="text">Constitue l’unité de gestion des alarmes (UGA) qui commande les diffuseurs
                                 sonores
-                                Constitue l’unité de commandes manuelles centralisé (UCMC) qui commande les DS et et les
+                                Constitue l’unité de commandes manuelles centralisée (UCMC) qui commande les DS et et les
                                 dispositifs actionnés de sécurité (DAS)
                                 Constitue l’unité de signalisation.</p>
                         </div>
@@ -159,7 +159,7 @@
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40" style="height: 563px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a  >Diffuseur sonores</a></h4>
+                            <h4 class="features-title"><a  >Diffuseur sonore</a></h4>
                             <div class="features-icon">
 
                             </div>
@@ -181,7 +181,7 @@
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40" style="height: 563px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a >Dispositifs actionné de sécurité (DAS)</a></h4>
+                            <h4 class="features-title"><a >Dispositif actionné de sécurité (DAS)</a></h4>
                             <div class="features-icon">
 
                             </div>

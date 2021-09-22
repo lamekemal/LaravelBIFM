@@ -91,7 +91,7 @@
                         <div class="features-content">
                             <p class="text">A chaque accès une solution. Bifm-Tech
                                 vous conseille sur les meilleures solutions de
-                                motorisations et équipements des portails et barrières automatique quelques
+                                motorisations et équipements des portails et barrières automatiques quelques
                                 soit le type de
                                 structure.</p>
                         </div>

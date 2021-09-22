@@ -64,7 +64,7 @@
                                                 précisément au type de risque.
 
                                                 De l’analogique au HD-SD/CVI en passant par du IP, nous vous apportons un
-                                                conseil spécialisé et détaillé adapté à chacune de vos situations . Vous
+                                                conseil spécialisé et détaillé adapté à chacune de vos situations. Vous
                                                 trouverez ici tous nos systèmes de vidéosurveillance.</p>
                                         </div>
                                     </div>
@@ -90,69 +90,69 @@
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
                         <h3 class="title">BiFm-Tech</h3>
-                        <p class="text"> Partenaire de votre système de surveillance</p>
+                        <p class="text"> Partenaire pour votre système de surveillance</p>
                     </div> <!-- row -->
                 </div>
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 458px"    >
+                    <div class="single-features mt-40" style="height: 375px"    >
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a> Caméras Starlight HD/IP</a></h4>
                             <div class="features-icon">
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">
+                            <!--p class="text">
 
                                 Caméra série PRO intérieur / extérieur 2.1-8MP
                                 Éclairage StarLight de 3ª génération
                                 Objectif motorisé et Smart IR de 100 mètres
 
-                            </p>
+                            </p-->
                         </div>
-                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen12.jpg') }}" alt="capteurs">
+                        <img style="max-height: 200px ;  margin-bottom: 25px" src="{{ URL::asset('images/zen12.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 458px">
+                    <div class="single-features mt-40" style="height: 375px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Caméra bullet HD/IP</a></h4>
                             <div class="features-icon">
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">
+                            <!--p class="text">
 
                                 Caméra série PRO intérieur / extérieur 2.1 – 8 Mp
                                 Eclairage Infrarouge
                                 Zoom motorisé
 
-                            </p>
+                            </p-->
                         </div>
-                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen13.jpg') }}" alt="capteurs">
+                        <img style="max-height: 200px ;  margin-bottom: 25px" src="{{ URL::asset('images/zen13.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 458px">
+                    <div class="single-features mt-40" style="height: 375px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Caméras dômes HD/IP</a></h4>
 
                         </div>
                         <div class="features-content">
-                            <p class="text">
+                            <!--p class="text">
 
                                 Dôme fixe ou motorisé
                                 Degré de protection IP66
                                 Résolution numérique: 1080P 2.4 – 8 Mp
-                                .</p>
+                                .</p-->
                         </div>
-                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen14.jpg') }}" alt="capteurs">
+                        <img style="max-height: 200px;  margin-bottom: 25px" src="{{ URL::asset('images/zen14.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 458px">
+                    <div class="single-features mt-40" style="height: 375px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Caméras BOX HD/IP</a></h4>
                             <div class="features-icon">
@@ -160,20 +160,20 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">
+                            <!--p class="text">
 
                                 Caméra box HDCVI couleur jour/nuit
                                 Filtre mécanique amovible
                                 Résolution numérique: 1080P / 2 – 8 Mp
 
-                            </p>
+                            </p-->
                         </div>
-                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen15.jpg') }}" alt="capteurs">
+                        <img style="max-height: 200px ; margin-bottom: 25px" src="{{ URL::asset('images/zen15.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 458px">
+                    <div class="single-features mt-40" style="height: 375px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Mini caméra cachée HD</a></h4>
                             <div class="features-icon">
@@ -181,33 +181,34 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">
+                            <!--p class="text">
                                 Mini caméra couleur pour l’intérieur
                                 Résolution numérique: 1080P / 2MP
                                 Support de lyre orientable
-                            </p>
+                            </p-->
                         </div>
-                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen16.jpg') }}" alt="capteurs">
+                        <img style="max-height: 200px ; margin-bottom: 25px" src="{{ URL::asset('images/zen16.jpg') }}" alt="capteurs">
                     </div> <!-- single features -->
                 </div>
 
                 <div data-xanim="glideInUp" class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40" style="height: 458px">
+                    <div class="single-features mt-40" style="height: 375px">
                         <div class="features-title-icon d-flex justify-content-between">
                             <h4 class="features-title"><a>Enregistreur / stockeur vidéo</a></h4>
                             <div class="features-icon">
 
                             </div>
                         </div>
+                        <img style="max-height: 200px ;  margin-bottom: 25px" src="{{ URL::asset('images/zen17.png') }}" alt="capteurs">
                         <div class="features-content">
-                            <p class="text">
+                            <!--p class="text">
 
                                 DVR HD Tri-hybride, NVR IP
                                 De 4 à 32 canaux analogique & numérique
                                 Stockage 2 HDD SATA
-                            </p>
+                            </p-->
                         </div>
-                        <img style="max-height: 200px ; position: absolute; bottom: 0;  margin-bottom: 25px" src="{{ URL::asset('images/zen17.png') }}" alt="capteurs">
+
                     </div> <!-- single features -->
                 </div>
             </div> <!-- row -->
