@@ -4,7 +4,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="{{ URL::asset('images/xlo.png') }}" alt="Logo"></a>
+                        <a class="mt-30" href="index.html"><img src="{{ URL::asset('images/base-logo.png') }}" alt="Logo"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://facebook.com/?=@bifmtec"><i class="lni lni-facebook-filled"></i></a></li>
