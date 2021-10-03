@@ -47,7 +47,7 @@
                                                 nos villes et contrées, l’importance d’un système d’alarme n’est plus à
                                                 démontrer. Surtout lorsqu'il s'agit de protéger des biens de valeur ou vos
                                                 locaux professionnels, il est donc indispensable de se doter d’un système
-                                                d'alarme efficace. Bifm-Tech vous Propose des Solutions et des appareils
+                                                d'alarme efficace. BiFm-Tech vous Propose des Solutions et des appareils
                                                 adaptés à vos besoins.</p>
                                         </div>
                                     </div>

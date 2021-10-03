@@ -14,7 +14,7 @@
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1 style = "color: #121212" data-animation="animated bounceInRight" >Climatisation.</h1>
-                <p style = "color: #121212" data-animation="animated zoomInRight" >Système de climatisation, matériel de climatisation. <br> Bifm-Tech vous offre l'expertise et la qualité dans son service et vos besoins.</p>
+                <p style = "color: #121212" data-animation="animated zoomInRight" >Système de climatisation, matériel de climatisation. <br> BiFm-Tech vous offre l'expertise et la qualité dans son service et vos besoins.</p>
               </div>
             </div>
           </div>

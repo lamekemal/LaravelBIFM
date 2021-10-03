@@ -15,7 +15,7 @@
                         <div class="carousel-caption text-left">
                             <h1 data-animation="animated bounceInDown" style="color: #121212">Installation et rénovation
                                 électrique.</h1>
-                            <p data-animation="animated lightSpeedIn" style="color: #121212">Bifm-Tech réalise l’installation
+                            <p data-animation="animated lightSpeedIn" style="color: #121212">BiFm-Tech réalise l’installation
                                 électrique de vos maison entreprise et vous accompagne depuis l’établissement du devis
                                 jusqu’à l'accomplissement de votre projet</p>
                         </div>
@@ -43,7 +43,7 @@
                                     <div class="card-body">
                                         <p class="text" style="text-align: justify">Il est aujourd’hui impensable de vivre
                                             dans un monde sans électricité tant les appareils électriques se multiplient
-                                            dans nos foyers. <br> Bifm-Tech réalise l’installation électrique de vos maison ou
+                                            dans nos foyers. <br> BiFm-Tech réalise l’installation électrique de vos maison ou
                                             entreprise et vous accompagne depuis l’établissement du devis jusqu’à
                                             l’accomplissement de votre projet. </p>
                                     </div>

@@ -16,7 +16,7 @@
                             <h1 data-animation="animated bounceInDown" style="color: #121212">Votre Sécurité, Notre
                                 priorité.</h1>
                             <p data-animation="animated lightSpeedIn" style="color: #121212">Dans toute condition, Alarme
-                                intrusion, Vidéo protection, Contrôle d’accès électronique <br>Bifm-Tech reste la
+                                intrusion, Vidéo protection, Contrôle d’accès électronique <br>BiFm-Tech reste la
                                 meilleure option.</p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                                         data-parent="#accordionExample">
                                         <div class="card-body">
                                             <p class="text" style="text-align: justify">Notre vocation est de vous accompagner
-                                                dans la lutte contre le vol et le vandalisme. <br>Bifm-Tech vous proposes des solutions
+                                                dans la lutte contre le vol et le vandalisme. <br>BiFm-Tech vous proposes des solutions
                                                  completes d'alarme connectée pour votre local. L’installation d’un système d’alarme
                                                  vous permet de disuader les cambrioleurs d’entrer et  de réduire ainsi  les vols.
                                                 Bénéficiez d’une protection 24 heures sur 24, d’un accès à distance et de la surveillance
@@ -78,7 +78,7 @@
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
                         <h3 class="title">Nos offres</h3>
-                        <p class="text"> Bifm-Tech vend et installe une large gamme de matériel de protection électronique
+                        <p class="text"> BiFm-Tech vend et installe une large gamme de matériel de protection électronique
                             et vous garantit une fiabilité conforme aux normes.</p>
                     </div> <!-- row -->
                 </div>

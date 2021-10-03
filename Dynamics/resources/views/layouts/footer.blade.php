@@ -29,7 +29,7 @@
                             </form>
                             <a class="btn btn-outline-primary btn-sm" href="/Dashboard">{{ __('Dashboard') }}</a>
                         @endguest
-                        <p class="text">Bifm-Tech copyright 2021</a> </p>
+                        <p class="text">BiFm-Tech copyright 2021</a> </p>
                     </div> <!--  copyright -->
                 </div>
             </div> <!-- row -->

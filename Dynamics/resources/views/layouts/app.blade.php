@@ -13,7 +13,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Bifm-Tech - @yield('title')</title>
+    <title>BiFm-Tech - @yield('title')</title>
     <!--title>{{ config('app.name', 'Building Infrastructure and Facility Management Technology') }}</title-->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicon/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon/favicon-32x32.png') }}">

@@ -89,7 +89,7 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <p class="text">A chaque accès une solution. Bifm-Tech
+                            <p class="text">A chaque accès une solution. BiFm-Tech
                                 vous conseille sur les meilleures solutions de
                                 motorisations et équipements des portails et barrières automatiques quelques
                                 soit le type de

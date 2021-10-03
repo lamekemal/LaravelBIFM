@@ -72,7 +72,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
-                        <h3 class="title">Bifm-Tech </h3>
+                        <h3 class="title">BiFm-Tech </h3>
                         <p class="text">Votre partenaire pour l'installation & la gestion de votre SSI Type 1-4 </p>
                     </div> <!-- row -->
                 </div>
