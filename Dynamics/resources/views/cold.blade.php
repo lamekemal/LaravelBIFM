@@ -150,6 +150,7 @@
             <div class="row">
             <div class="col-lg-4 col-sm-6">
                 <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+
                     <div class="team-content" style="height:149.55px">
                         <h4 class="team-name" ><a>APPLICATION</a></h4>
                         <span class="sub-title"  style="font-size: 18px">Produit fongicides anti-bactériens</span>
@@ -159,19 +160,23 @@
 
             <div class="col-lg-4 col-sm-6">
                 <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="team-secur">
                     <div class="team-content" style="height:149.55px">
                         <h4 class="team-name" ><a>NETTOYAGE</a></h4>
                         <span class="sub-title"  style="font-size: 15px" >Des filtres, turbines de soufflage, condensateur, carrosserie.</span>
                     </div>
                 </div>
                 </div>
+                </div>
 
             <div class="col-lg-4 col-sm-6">
                 <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="team-secur">
                     <div class="team-content" style="height:149.55px">
                         <h4 class="team-name"><a>CONTROL</a></h4>
                         <span class="sub-title"  style="font-size: 18px">des étanchéités et des températures</span>
                     </div>
+                </div>
                 </div>
                </div>
         </div>

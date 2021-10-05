@@ -112,7 +112,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40" style="height: 318px">
                         <div class="features-title-icon d-flex justify-content-between">
-                            <h4 class="features-title"><a>Installation electrique</a></h4>
+                            <h4 class="features-title"><a>Installation Electrique</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-plug"></i>
                                 <img class="shape" src="{{ URL::asset('images/f-shape-1.svg') }}" alt="Shape">
@@ -144,6 +144,7 @@
             <div class="row justify-content-center" style="margin-top:195px;">
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+
                         <div class="team-content">
                             <h4 class="team-name"><a >Installation électrique</a></h4>
                             <span class="sub-title"  style="font-size: 15px">
@@ -163,7 +164,8 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn " data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-power">
                         <div class="team-content">
                             <h4 class="team-name"><a >Solutions éclairages</a></h4>
                             <span class="sub-title"  style="font-size: 18px">
@@ -177,14 +179,15 @@
                                 <br>
                                 Hublots intérieurs / extérieurs
                             </span>
-                        </div>
+                        </div></div>
                     </div>
                 </div>
             </div>
 
             <div class="row justify-content-center" style="margin-top:195px">
                 <div class="col-lg-4 col-sm-6">
-                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn " data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-power">
                         <div class="team-content">
                             <h4 class="team-name"><a >Dépannage électricité</a></h4>
                             <span class="sub-title">
@@ -198,12 +201,13 @@
                                 <br>
                                 Particuliers – Professionnels
                             </span>
-                        </div>
+                        </div></div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div style="  @media (max-width: 767px) {margin-top: 168px;}" class="team-style-eleven text-center mt-30 wow fadeIn " data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-power">
                         <div class="team-content">
                             <h4 class="team-name"><a >Contrôle Électrique</a></h4>
                             <span class="sub-title">
@@ -217,7 +221,7 @@
                                 <br>
                                 Coupure d’urgence
                             </span>
-                        </div>
+                        </div> </div>
                     </div>
                 </div>
             </div>

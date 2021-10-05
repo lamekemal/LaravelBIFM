@@ -569,29 +569,33 @@
                 <div class="row">
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class=" team-index">
                         <div class="team-content">
                             <h4 class="team-name"><a href="#">Un service sur-mesure</a></h4>
                             <span class="sub-title">personnalisé à vos besoins</span>
-                        </div>
+                        </div> </div>
                     </div>
                   </div>
 
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class=" team-index">
                         <div class="team-content">
                             <h4 class="team-name"><a href="#">Respect du planning</a></h4>
                             <span class="sub-title">et des engagements</span>
                         </div>
-                    </div>
+                    </div> </div>
                     </div>
 
                 <div class="col-lg-4 col-sm-6">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class=" team-index">
                         <div class="team-content">
                             <h4 class="team-name"><a href="#">SAV performant</a></h4>
                             <span class="sub-title">Garantie pièces & main d’oeuvre</span>
                         </div>
                     </div>
+                </div>
                    </div>
             </div>
             </div>
@@ -647,7 +651,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-wrapper form-style-two pt-115">
-                        <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Laisser nous <span>un message.</span></h4>
+                        <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Laissez nous <span>un message.</span></h4>
 
                         <form id="contact-form" action="/Devis" method="POST"
                         enctype="multipart/form-data">

@@ -28,9 +28,9 @@
                     <div>
                         <label for="exampleFormControlSelect1">Categorie de l'article</label>
                         <select name="cat" class="form-control" id="exampleFormControlSelect1">
-                          <option  value="1">Electricite</option>
+                          <option  value="1">Electricité</option>
                           <option  value="2">Climatisation</option>
-                          <option  value="3">Securite</option>
+                          <option  value="3">Sécurité</option>
                           <option  value="4">Domotique</option>
                         </select>
                       </div>

@@ -4,7 +4,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="{{ URL::asset('images/base-logo.png') }}" alt="Logo"></a>
+                        <a class="mt-30" href="https://www.bifm-tech.com/"><img src="{{ URL::asset('images/base-logo.png') }}" alt="Logo"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://facebook.com/?=@bifmtec"><i class="lni lni-facebook-filled"></i></a></li>
@@ -13,9 +13,9 @@
 
                     <div class="copyright text-center mt-35">
                         @guest
-                            <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('BIFM+') }}</a>
+                            <a class="no-underline hover:underline" href="{{ route('login') }}" hidden>{{ __('BIFM+') }}</a>
                             @if (Route::has('register'))
-                                <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('.') }}</a>
+                                <a class="no-underline hover:underline" href="{{ route('register') }}" hidden>{{ __('.') }}</a>
                             @endif
                         @else
                             <span>{{ Auth::user()->name }}</span>
