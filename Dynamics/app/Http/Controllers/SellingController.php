@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Selling;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Mail;
 
 class SellingController extends Controller
 {
@@ -64,6 +65,10 @@ class SellingController extends Controller
         ]);
 
         $slug = $request->input('slug');
+        $localTitle = Product::where('slug',  $slug)->value('title');
+        $localDec = Product::where('slug', $slug)->value('description');
+        $localPrice = Product::where('slug', $slug)->value('price');
+
         Selling::create([
             'name' => $request->input('name'),
             'email' => $request->input('email'),
@@ -75,6 +80,24 @@ class SellingController extends Controller
             'price' => Product::where('slug', $slug)->value('price'),
             'image_path' => Product::where('slug', $slug)->value('image_path')
         ]);
+
+           $msgMail = 'Bonjour,
+            Ceci est un message générique de la plateforme BiFm-Tech.'.
+            ' Veillez SVP consultez le http://dashboard.bifm-tech.com/ pour traiter la commande ou le message.'.
+            '-------------------- BISHOP----------------------'. 'Nom du client : '. $request->input('name').
+            ' Adresse Mail : '.  $request->input('email'). ' Contact : '. $request->input('contact'). '  ----Infos Produit---- '.
+            'https://www.bifm-tech.com/BiShop/'. $slug. ' Nom et description du produit : '. $localTitle. ' > '.
+            $localDec. ' Prix: '. $localPrice;
+            $to_name = 'kemal.handill';
+            $to_email = 'kemal.handill@gmail.com';
+            $data = array('name'=> 'BiFm - Technologie', 'body' => $msgMail);
+
+            Mail::send([], $data, function($message) use ($to_name, $to_email, $msgMail) {
+            $message->to($to_email, $to_name)
+            ->subject('Comande Bi-Shop client')->setBody($msgMail);;
+            $message->from('support@bifm-tech.com','BiFm-Tech');
+            });
+
 
         return redirect('/BiShop')->with('message', 'Votre commande a été prise en compte!');
     }

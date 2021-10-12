@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Devi;
 use Illuminate\Http\Request;
 use Cviebrock\EloquentSluggable\Services\SlugService;
+use Mail;
 
 class DeviController extends Controller
 {
@@ -71,6 +72,24 @@ class DeviController extends Controller
             'slug' => SlugService::createSlug(Devi::class, 'slug',  $request->email),
             'category' => $request->input('category')
         ]);
+
+
+        $msgMail = 'Bonjour,
+        Ceci est un message générique de la plateforme BiFm-Tech.'.
+        ' Veillez SVP consultez le http://dashboard.bifm-tech.com/ pour traiter la commande ou le message. '.
+        '  -------------------- MESSAGES ET DEMANDE DE DEVIS----------------------  '. 'Nom du client : '. $request->input('name').
+        '  Adresse Mail : '.  $request->input('email'). '  Contact : '. $request->input('contact'). ' ----Details---- '.
+        $request->input('category');
+
+        $to_name = '';
+        $to_email = 'kemal.handill@gmail.com';
+        $data = array('name'=> 'BiFm - Technologie', 'body' => $msgMail);
+
+        Mail::send( [], $data, function($message) use ($to_name, $to_email , $msgMail) {
+        $message->to($to_email, $to_name)
+        ->subject('Nouveau message client')->setBody($msgMail);
+        $message->from('support@bifm-tech.com','BiFm-Tech');
+        });
 
             return 'Votre requette a été enregistrée!';
         //return redirect('/')->with('message', 'Votre demande a été soumise!');
