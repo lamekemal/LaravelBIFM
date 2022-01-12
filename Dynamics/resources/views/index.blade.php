@@ -639,7 +639,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-contact-info contact-color-3 mt-30 d-flex ">
                             <div class="contact-info-icon">
-                                <i class="lni lni-facebook"></i>
+                               <a href="https://www.facebook.com/bifmtec/"> <i class="lni lni-facebook"></i> </a>
                             </div>
                             <div class="contact-info-content media-body">
                                 <p class="text" style="margin-top: 15px">@Bifmtec</p>

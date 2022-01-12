@@ -76,13 +76,21 @@ class DeviController extends Controller
 
         $msgMail = 'Bonjour,
         Ceci est un message générique de la plateforme BiFm-Tech.'.
-        ' Veillez SVP consultez le http://dashboard.bifm-tech.com/ pour traiter la commande ou le message. '.
-        '  -------------------- MESSAGES ET DEMANDE DE DEVIS----------------------  '. 'Nom du client : '. $request->input('name').
-        '  Adresse Mail : '.  $request->input('email'). '  Contact : '. $request->input('contact'). ' ----Details---- '.
+        '
+        Veillez SVP consultez le http://dashboard.bifm-tech.com/ pour traiter la commande ou le message.
+        '.
+        '
+        -------------------- MESSAGES ET DEMANDE DE DEVIS----------------------
+        '. 'Nom du client : '. $request->input('name').
+        '
+        Adresse Mail : '.  $request->input('email'). '
+        Contact : '. $request->input('contact'). '
+        ----Details----
+         '.
         $request->input('category');
 
         $to_name = '';
-        $to_email = 'kemal.handill@gmail.com';
+        $to_email = 'bifmtec@gmail.com';
         $data = array('name'=> 'BiFm - Technologie', 'body' => $msgMail);
 
         Mail::send( [], $data, function($message) use ($to_name, $to_email , $msgMail) {

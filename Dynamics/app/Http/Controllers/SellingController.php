@@ -82,14 +82,23 @@ class SellingController extends Controller
         ]);
 
            $msgMail = 'Bonjour,
-            Ceci est un message générique de la plateforme BiFm-Tech.'.
-            ' Veillez SVP consultez le http://dashboard.bifm-tech.com/ pour traiter la commande ou le message.'.
-            '-------------------- BISHOP----------------------'. 'Nom du client : '. $request->input('name').
-            ' Adresse Mail : '.  $request->input('email'). ' Contact : '. $request->input('contact'). '  ----Infos Produit---- '.
-            'https://www.bifm-tech.com/BiShop/'. $slug. ' Nom et description du produit : '. $localTitle. ' > '.
+        Ceci est un message générique de la plateforme BiFm-Tech.
+        '.
+            ' Veillez SVP consultez le http://dashboard.bifm-tech.com/ pour traiter la commande ou le message.
+            '.
+            '
+            -------------------- BISHOP----------------------
+            '. 'Nom du client : '. $request->input('name').
+            '
+             Adresse Mail : '.  $request->input('email'). '
+              Contact : '. $request->input('contact'). '
+                ----Infos Produit----
+                '.
+            'https://www.bifm-tech.com/BiShop/'. $slug. '
+            Nom et description du produit : '. $localTitle. ' > '.
             $localDec. ' Prix: '. $localPrice;
             $to_name = 'kemal.handill';
-            $to_email = 'kemal.handill@gmail.com';
+            $to_email = 'bifmtec@gmail.com';
             $data = array('name'=> 'BiFm - Technologie', 'body' => $msgMail);
 
             Mail::send([], $data, function($message) use ($to_name, $to_email, $msgMail) {
